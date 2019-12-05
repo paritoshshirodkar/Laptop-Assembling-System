@@ -3,7 +3,7 @@ package edu.bu.met.cs665;
 /**
  * Interface that provides the basic blueprint of assembling a laptop.
  */
-public interface LaptopassemblyBlueprint {
+public interface LaptopAssemblyBlueprint {
 
   public void setScreenSize(double screenSize);
 
