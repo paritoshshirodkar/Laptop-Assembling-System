@@ -20,15 +20,9 @@ public class Main {
     // PropertyConfigurator.configure("log4j.properties");
 
     // Let us create an object of the Main class.
-//    Main m = new Main();
+    //    Main m = new Main();
 
 
-//    logger.trace("Trace Message!");
-//    logger.debug("Debug Message!");
-//    logger.info("Info Message!");
-//    logger.warn("Warn Message!");
-//    logger.error("Error Message!");
-//    logger.fatal("Fatal Message!");
 
 
     LaptopBuilder linuxBuilder = new LinuxBuilder();
