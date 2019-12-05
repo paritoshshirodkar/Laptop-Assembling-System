@@ -19,4 +19,6 @@ public interface LaptopBuilder {
 
   public void addColor();
 
+  public Laptop getLaptop();
+
 }
