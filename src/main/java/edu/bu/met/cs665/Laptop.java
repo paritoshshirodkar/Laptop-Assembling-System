@@ -76,4 +76,69 @@ public class Laptop implements LaptopAssemblyBlueprint {
   public void setColor(String color) {
     laptopColor = color;
   }
+
+
+
+
+  /**
+   * Getter method for the screen size of the laptop.
+   * @return laptop screen size
+   */
+  public double getLaptopScreenSize() {
+    return laptopScreenSize;
+  }
+
+
+  /**
+   * Getter method for the operating system of the laptop.
+   * @return laptop operating system
+   */
+  public String getLaptopOs() {
+    return laptopOs;
+  }
+
+
+  /**
+   * Getter method for the processor of the laptop.
+   * @return laptop processor
+   */
+  public String getLaptopProcessor() {
+    return laptopProcessor;
+  }
+
+
+  /**
+   * Getter method for the processor of the laptop.
+   * @return laptop ram
+   */
+  public double getLaptopRam() {
+    return laptopRam;
+  }
+
+
+  /**
+   * Getter method for the hard disk of the laptop.
+   * @return laptop hard disk
+   */
+  public double getLaptopHardDisk() {
+    return laptopHardDisk;
+  }
+
+  /**
+   * Getter method for the battery of the laptop.
+   * @return laptop battery
+   */
+  public double getLaptopBattery() {
+    return laptopBattery;
+  }
+
+
+  /**
+   * Getter method for the color of the laptop.
+   * @return laptop color
+   */
+  public String getLaptopColor() {
+    return laptopColor;
+  }
+
 }
