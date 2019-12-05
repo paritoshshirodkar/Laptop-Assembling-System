@@ -10,7 +10,7 @@ public class WindowsBuilder implements LaptopBuilder {
   /**
    * Constructor to create a WindowsBuilder.
    */
-  public void WindowsBuilder() {
+  public WindowsBuilder() {
     this.laptop = new Laptop();
   }
 

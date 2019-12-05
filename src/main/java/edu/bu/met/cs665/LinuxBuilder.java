@@ -10,7 +10,7 @@ public class LinuxBuilder implements LaptopBuilder {
   /**
    * Constructor to create a LinuxBuilder.
    */
-  public void LinuxBuilder() {
+  public LinuxBuilder() {
     this.laptop = new Laptop();
   }
 

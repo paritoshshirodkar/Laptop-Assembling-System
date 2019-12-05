@@ -10,7 +10,7 @@ public class MacBuilder implements LaptopBuilder {
   /**
    * Constructor to create a MacBuilder.
    */
-  public void MacBuilder() {
+  public MacBuilder() {
     this.laptop = new Laptop();
   }
 
