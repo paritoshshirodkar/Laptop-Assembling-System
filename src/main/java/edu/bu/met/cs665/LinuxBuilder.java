@@ -48,4 +48,9 @@ public class LinuxBuilder implements LaptopBuilder {
   public void addColor() {
     laptop.setColor("Black");
   }
+
+  @Override
+  public Laptop getLaptop() {
+    return laptop;
+  }
 }
