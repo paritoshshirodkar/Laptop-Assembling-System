@@ -3,7 +3,7 @@ package edu.bu.met.cs665;
 /**
  * This class represents a single Laptop.
  */
-public class Laptop implements LaptopassemblyBlueprint {
+public class Laptop implements LaptopAssemblyBlueprint {
 
   private double laptopScreenSize;
   private String laptopOs;
