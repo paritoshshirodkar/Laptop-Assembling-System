@@ -16,7 +16,7 @@ public class ShopTechnician {
    * Method to get the laptop built using the LaptopBuilder.
    * @return laptop built using the LaptopBuilder
    */
-  public Laptop getlaptop() {
+  public Laptop getAssembledlaptop() {
     return this.laptopBuilder.getLaptop();
   }
 
