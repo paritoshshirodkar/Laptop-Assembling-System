@@ -1,7 +1,7 @@
 package edu.bu.met.cs665;
 
 import org.apache.log4j.Logger;
-// import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 
 public class Shop {
 
@@ -17,7 +17,7 @@ public class Shop {
 
     // This configuration is for setting up the log4j properties file.
     // It is better to set this using java program arguments.
-    // PropertyConfigurator.configure("log4j.properties");
+    PropertyConfigurator.configure("log4j.properties");
 
     // Let us create an object of the Shop class.
     //    Shop m = new Shop();
@@ -33,14 +33,14 @@ public class Shop {
 
     Laptop rhelLaptop = linuxTechnician.getAssembledlaptop();
 
-    logger.info("Linux Laptop with the following configuration is ready: \n"
-        + rhelLaptop.getLaptopScreenSize() + "\n"
-        + rhelLaptop.getLaptopOs() + "\n"
-        + rhelLaptop.getLaptopProcessor() + "\n"
-        + rhelLaptop.getLaptopRam() + "\n"
-        + rhelLaptop.getLaptopHardDisk() + "\n"
-        + rhelLaptop.getLaptopBattery() + "\n"
-        + rhelLaptop.getLaptopColor());
+    logger.info("\nLinux Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + rhelLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + rhelLaptop.getLaptopOs() + "\n"
+        + "Processor: " + rhelLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + rhelLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + rhelLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + rhelLaptop.getLaptopBattery() + "\n"
+        + "Color: " + rhelLaptop.getLaptopColor());
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
@@ -50,14 +50,14 @@ public class Shop {
 
     Laptop windowsLaptop = windowsTechnician.getAssembledlaptop();
 
-    logger.info("Windows Laptop with the following configuration is ready: \n"
-        + windowsLaptop.getLaptopScreenSize() + "\n"
-        + windowsLaptop.getLaptopOs() + "\n"
-        + windowsLaptop.getLaptopProcessor() + "\n"
-        + windowsLaptop.getLaptopRam() + "\n"
-        + windowsLaptop.getLaptopHardDisk() + "\n"
-        + windowsLaptop.getLaptopBattery() + "\n"
-        + windowsLaptop.getLaptopColor());
+    logger.info("\nWindows Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + windowsLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + windowsLaptop.getLaptopOs() + "\n"
+        + "Processor: " + windowsLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + windowsLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + windowsLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + windowsLaptop.getLaptopBattery() + "\n"
+        + "Color: " + windowsLaptop.getLaptopColor());
 
     LaptopBuilder macBuilder = new MacBuilder();
 
@@ -67,14 +67,14 @@ public class Shop {
 
     Laptop macLaptop = macTechnician.getAssembledlaptop();
 
-    logger.info("Windows Laptop with the following configuration is ready: \n"
-        + macLaptop.getLaptopScreenSize() + "\n"
-        + macLaptop.getLaptopOs() + "\n"
-        + macLaptop.getLaptopProcessor() + "\n"
-        + macLaptop.getLaptopRam() + "\n"
-        + macLaptop.getLaptopHardDisk() + "\n"
-        + macLaptop.getLaptopBattery() + "\n"
-        + macLaptop.getLaptopColor());
+    logger.info("\nMac Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + macLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + macLaptop.getLaptopOs() + "\n"
+        + "Processor: " + macLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + macLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + macLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + macLaptop.getLaptopBattery() + "\n"
+        + "Color: " + macLaptop.getLaptopColor());
 
 
   }
