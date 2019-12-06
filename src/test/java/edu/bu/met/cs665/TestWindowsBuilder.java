@@ -67,7 +67,7 @@ public class TestWindowsBuilder {
 
 
   @Test
-  public void testWindowsHardDisk() {
+  public void testWindowsBuilderHardDisk() {
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
@@ -81,7 +81,7 @@ public class TestWindowsBuilder {
   }
 
   @Test
-  public void testWindowsBattery() {
+  public void testWindowsBuilderBattery() {
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
@@ -95,7 +95,7 @@ public class TestWindowsBuilder {
   }
 
   @Test
-  public void testWindowsColor() {
+  public void testWindowsBuilderColor() {
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
