@@ -33,6 +33,14 @@ public class Shop {
 
     Laptop rhelLaptop = linuxTechnician.getAssembledlaptop();
 
+    logger.info("Linux Laptop with the following configuration is ready: \n"
+        + rhelLaptop.getLaptopScreenSize() + "\n"
+        + rhelLaptop.getLaptopOs() + "\n"
+        + rhelLaptop.getLaptopProcessor() + "\n"
+        + rhelLaptop.getLaptopRam() + "\n"
+        + rhelLaptop.getLaptopHardDisk() + "\n"
+        + rhelLaptop.getLaptopBattery() + "\n"
+        + rhelLaptop.getLaptopColor());
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
@@ -42,6 +50,14 @@ public class Shop {
 
     Laptop windowsLaptop = windowsTechnician.getAssembledlaptop();
 
+    logger.info("Windows Laptop with the following configuration is ready: \n"
+        + windowsLaptop.getLaptopScreenSize() + "\n"
+        + windowsLaptop.getLaptopOs() + "\n"
+        + windowsLaptop.getLaptopProcessor() + "\n"
+        + windowsLaptop.getLaptopRam() + "\n"
+        + windowsLaptop.getLaptopHardDisk() + "\n"
+        + windowsLaptop.getLaptopBattery() + "\n"
+        + windowsLaptop.getLaptopColor());
 
     LaptopBuilder macBuilder = new MacBuilder();
 
@@ -50,6 +66,16 @@ public class Shop {
     macTechnician.assembleLaptop();
 
     Laptop macLaptop = macTechnician.getAssembledlaptop();
+
+    logger.info("Windows Laptop with the following configuration is ready: \n"
+        + macLaptop.getLaptopScreenSize() + "\n"
+        + macLaptop.getLaptopOs() + "\n"
+        + macLaptop.getLaptopProcessor() + "\n"
+        + macLaptop.getLaptopRam() + "\n"
+        + macLaptop.getLaptopHardDisk() + "\n"
+        + macLaptop.getLaptopBattery() + "\n"
+        + macLaptop.getLaptopColor());
+
 
   }
 
