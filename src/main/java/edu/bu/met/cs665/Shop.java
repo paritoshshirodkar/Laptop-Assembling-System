@@ -25,22 +25,22 @@ public class Shop {
 
 
 
-    LaptopBuilder linuxBuilder = new LinuxBuilder();
+    LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
-    ShopTechnician linuxTechnician = new ShopTechnician(linuxBuilder);
+    ShopTechnician developerTechnician = new ShopTechnician(developerLaptopBuilder);
 
-    linuxTechnician.assembleLaptop();
+    developerTechnician.assembleLaptop();
 
-    Laptop rhelLaptop = linuxTechnician.getAssembledlaptop();
+    Laptop developerLaptop = developerTechnician.getAssembledlaptop();
 
-    logger.info("\nLinux Laptop with the following configuration is ready: \n"
-        + "Screen Size: " + rhelLaptop.getLaptopScreenSize() + "\n"
-        + "Operating System: " + rhelLaptop.getLaptopOs() + "\n"
-        + "Processor: " + rhelLaptop.getLaptopProcessor() + "\n"
-        + "RAM: " + rhelLaptop.getLaptopRam() + "\n"
-        + "Hard Disk: " + rhelLaptop.getLaptopHardDisk() + "\n"
-        + "Battery: " + rhelLaptop.getLaptopBattery() + "\n"
-        + "Color: " + rhelLaptop.getLaptopColor());
+    logger.info("\nDeveloper Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + developerLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + developerLaptop.getLaptopOs() + "\n"
+        + "Processor: " + developerLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + developerLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + developerLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + developerLaptop.getLaptopBattery() + "\n"
+        + "Color: " + developerLaptop.getLaptopColor());
 
     LaptopBuilder windowsBuilder = new WindowsBuilder();
 
