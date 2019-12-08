@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class TestDeveloperLaptopBuilder {
 
   @Test
-  public void testLinuxBuilderScreenSize() {
+  public void testDeveloperLaptopBuilderScreenSize() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -24,7 +24,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderOS() {
+  public void testDeveloperLaptopBuilderOS() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -38,7 +38,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderProcessor() {
+  public void testDeveloperLaptopBuilderProcessor() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -52,7 +52,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderRam() {
+  public void testDeveloperLaptopBuilderRam() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -66,7 +66,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderHardDisk() {
+  public void testDeveloperLaptopBuilderHardDisk() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -80,7 +80,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderBattery() {
+  public void testDeveloperLaptopBuilderBattery() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
@@ -94,7 +94,7 @@ public class TestDeveloperLaptopBuilder {
   }
 
   @Test
-  public void testLinuxBuilderColor() {
+  public void testDeveloperLaptopBuilderColor() {
 
     LaptopBuilder developerLaptopBuilder = new DeveloperLaptopBuilder();
 
