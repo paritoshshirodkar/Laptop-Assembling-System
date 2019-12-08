@@ -3,7 +3,7 @@ package edu.bu.met.cs665;
 /**
  * This class represents a single Laptop.
  */
-public class Laptop implements LaptopAssemblyBlueprint {
+public class Laptop {
 
   private double laptopScreenSize;
   private String laptopOs;
@@ -18,7 +18,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for screen size of the laptop.
    * @param screenSize screen size of the laptop
    */
-  @Override
   public void setScreenSize(double screenSize) {
     laptopScreenSize = screenSize;
   }
@@ -27,7 +26,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for os of the laptop.
    * @param os os of the laptop
    */
-  @Override
   public void setOS(String os) {
     laptopOs = os;
   }
@@ -36,7 +34,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for processor of the laptop.
    * @param processor processor of the laptop
    */
-  @Override
   public void setProcessor(String processor) {
     laptopProcessor = processor;
   }
@@ -45,7 +42,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for ram of the laptop.
    * @param ram ram of the laptop
    */
-  @Override
   public void setRam(double ram) {
     laptopRam = ram;
   }
@@ -54,7 +50,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for hard disk of the laptop.
    * @param hardDisk hard disk of the laptop
    */
-  @Override
   public void setHardDisk(double hardDisk) {
     laptopHardDisk = hardDisk;
   }
@@ -63,7 +58,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for battery of the laptop.
    * @param battery battery of the laptop
    */
-  @Override
   public void setBattery(double battery) {
     laptopBattery = battery;
   }
@@ -72,7 +66,6 @@ public class Laptop implements LaptopAssemblyBlueprint {
    * Setter method for color of the laptop.
    * @param color color of the laptop
    */
-  @Override
   public void setColor(String color) {
     laptopColor = color;
   }
