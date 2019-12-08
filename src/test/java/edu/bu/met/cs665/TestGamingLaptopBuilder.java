@@ -23,7 +23,7 @@ public class TestGamingLaptopBuilder {
   }
 
   @Test
-  public void testWindowsBuilderOS() {
+  public void testGamingLaptopBuilderOS() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
@@ -37,7 +37,7 @@ public class TestGamingLaptopBuilder {
   }
 
   @Test
-  public void testWindowsBuilderProcessor() {
+  public void testGamingLaptopBuilderProcessor() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
@@ -51,7 +51,7 @@ public class TestGamingLaptopBuilder {
   }
 
   @Test
-  public void testWindowsBuilderRam() {
+  public void testGamingLaptopBuilderRam() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
@@ -66,7 +66,7 @@ public class TestGamingLaptopBuilder {
 
 
   @Test
-  public void testWindowsBuilderHardDisk() {
+  public void testGamingLaptopBuilderHardDisk() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
@@ -80,7 +80,7 @@ public class TestGamingLaptopBuilder {
   }
 
   @Test
-  public void testWindowsBuilderBattery() {
+  public void testGamingLaptopBuilderBattery() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
@@ -94,7 +94,7 @@ public class TestGamingLaptopBuilder {
   }
 
   @Test
-  public void testWindowsBuilderColor() {
+  public void testGamingLaptopBuilderColor() {
 
     LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
