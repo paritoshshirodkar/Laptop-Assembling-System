@@ -59,22 +59,22 @@ public class Shop {
         + "Battery: " + gamingLaptop.getLaptopBattery() + "\n"
         + "Color: " + gamingLaptop.getLaptopColor());
 
-    LaptopBuilder macBuilder = new MacBuilder();
+    LaptopBuilder personalLaptopBuilder = new PersonalLaptopBuilder();
 
-    ShopTechnician macTechnician = new ShopTechnician(macBuilder);
+    ShopTechnician personalTechnician = new ShopTechnician(personalLaptopBuilder);
 
-    macTechnician.assembleLaptop();
+    personalTechnician.assembleLaptop();
 
-    Laptop macLaptop = macTechnician.getAssembledlaptop();
+    Laptop personalLaptop = personalTechnician.getAssembledlaptop();
 
-    logger.info("\nMac Laptop with the following configuration is ready: \n"
-        + "Screen Size: " + macLaptop.getLaptopScreenSize() + "\n"
-        + "Operating System: " + macLaptop.getLaptopOs() + "\n"
-        + "Processor: " + macLaptop.getLaptopProcessor() + "\n"
-        + "RAM: " + macLaptop.getLaptopRam() + "\n"
-        + "Hard Disk: " + macLaptop.getLaptopHardDisk() + "\n"
-        + "Battery: " + macLaptop.getLaptopBattery() + "\n"
-        + "Color: " + macLaptop.getLaptopColor());
+    logger.info("\nPersonal Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + personalLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + personalLaptop.getLaptopOs() + "\n"
+        + "Processor: " + personalLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + personalLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + personalLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + personalLaptop.getLaptopBattery() + "\n"
+        + "Color: " + personalLaptop.getLaptopColor());
 
 
   }

@@ -1,16 +1,16 @@
 package edu.bu.met.cs665;
 
 /**
- * Concrete builder to assemble mac laptops.
+ * Concrete builder to assemble personal laptops.
  */
-public class MacBuilder implements LaptopBuilder {
+public class PersonalLaptopBuilder implements LaptopBuilder {
 
   private Laptop laptop;
 
   /**
-   * Constructor to create a MacBuilder.
+   * Constructor to create a PersonalLaptopBuilder.
    */
-  public MacBuilder() {
+  public PersonalLaptopBuilder() {
     this.laptop = new Laptop();
   }
 
