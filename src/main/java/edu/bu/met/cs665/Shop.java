@@ -42,22 +42,22 @@ public class Shop {
         + "Battery: " + developerLaptop.getLaptopBattery() + "\n"
         + "Color: " + developerLaptop.getLaptopColor());
 
-    LaptopBuilder windowsBuilder = new WindowsBuilder();
+    LaptopBuilder gamingLaptopBuilder = new GamingLaptopBuilder();
 
-    ShopTechnician windowsTechnician = new ShopTechnician(windowsBuilder);
+    ShopTechnician gamingTechnician = new ShopTechnician(gamingLaptopBuilder);
 
-    windowsTechnician.assembleLaptop();
+    gamingTechnician.assembleLaptop();
 
-    Laptop windowsLaptop = windowsTechnician.getAssembledlaptop();
+    Laptop gamingLaptop = gamingTechnician.getAssembledlaptop();
 
-    logger.info("\nWindows Laptop with the following configuration is ready: \n"
-        + "Screen Size: " + windowsLaptop.getLaptopScreenSize() + "\n"
-        + "Operating System: " + windowsLaptop.getLaptopOs() + "\n"
-        + "Processor: " + windowsLaptop.getLaptopProcessor() + "\n"
-        + "RAM: " + windowsLaptop.getLaptopRam() + "\n"
-        + "Hard Disk: " + windowsLaptop.getLaptopHardDisk() + "\n"
-        + "Battery: " + windowsLaptop.getLaptopBattery() + "\n"
-        + "Color: " + windowsLaptop.getLaptopColor());
+    logger.info("\nGaming Laptop with the following configuration is ready: \n"
+        + "Screen Size: " + gamingLaptop.getLaptopScreenSize() + "\n"
+        + "Operating System: " + gamingLaptop.getLaptopOs() + "\n"
+        + "Processor: " + gamingLaptop.getLaptopProcessor() + "\n"
+        + "RAM: " + gamingLaptop.getLaptopRam() + "\n"
+        + "Hard Disk: " + gamingLaptop.getLaptopHardDisk() + "\n"
+        + "Battery: " + gamingLaptop.getLaptopBattery() + "\n"
+        + "Color: " + gamingLaptop.getLaptopColor());
 
     LaptopBuilder macBuilder = new MacBuilder();
 
