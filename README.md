@@ -6,9 +6,13 @@ Simulate the working of a shop where the clients can request different types of 
 
 
 The application constraints are:
+
 The process involved in creating the different types of laptops should be similar.
+
 The client should be unaware of the different parts/components that are used to assemble the laptop.
+
 Based on the type of laptop requested an appropriate shop technician instance should be created who would follow a process to pick the right parts and assemble the laptop.
+
 Only after all the components have been set properly and the laptop is ready the laptop should be given to the client.
 
 
