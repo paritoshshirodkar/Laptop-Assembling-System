@@ -1,6 +1,6 @@
 # Builder Pattern Implementation
 
-#### Use Case Scenario Description
+## Use Case Scenario Description
 
 Simulate the working of a shop where the clients can request different types of laptops like - Gaming laptop, Personal laptop and Developer laptop.
 
@@ -17,7 +17,7 @@ Only after all the components have been set properly and the laptop is ready the
 
 
 
-#### Flexibility
+## Flexibility
 This implementation is flexible to support new types of Laptops without a lot of code modification. 
 I have used Builder pattern in my implementation.Whenever a new type of Laptop is to be added, 
 we just have to make a new class corresponding to it and make sure that this new class implements all the methods specified in the LaptopBuilder interface.
@@ -25,7 +25,7 @@ we just have to make a new class corresponding to it and make sure that this new
 This makes the design very flexible to changes.
 
 
-#### Simplicity and Understability
+## Simplicity and Understability
 I have implemented logging to demonstrate the working of my implementation.
 In case if something goes wrong we can refer to the logs.
 This is useful to simulate the order in which the parts were selected to assemble the laptop.
@@ -33,7 +33,7 @@ This was especially helpful while testing the logic of the system.
 Overall the implemenntation of any method can also be understood from the comments.
 
 
-#### Avoiding code duplication
+## Avoiding code duplication
 
 The director instances can use the different concrete builders to obtain different representation from the similar components.
 Most instance variables have well defined Getters and Setters hence they can be accessed once the class is instantiated.
