@@ -1,5 +1,7 @@
 # Builder Pattern Implementation
 
+[Please click here for presentation video](https://drive.google.com/file/d/1q-_2AnOrvxyVj-sy_ICVNv3HI1IUElBH/view?usp=sharing)
+
 ## Use Case Scenario Description
 
 Simulate the working of a shop where the clients can request different types of laptops like - Gaming laptop, Personal laptop and Developer laptop.
