@@ -37,7 +37,7 @@ Overall the implemenntation of any method can also be understood from the commen
 
 The director instances can use the different concrete builders to obtain different representation from the similar components.
 Most instance variables have well defined Getters and Setters hence they can be accessed once the class is instantiated.
-Hence a lot of code duplication was avoided by using Builder Pattern.
+Hence a lot of code duplication was avoided by using the Builder Pattern.
 
 
 
